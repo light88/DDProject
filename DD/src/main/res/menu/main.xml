@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_settings1"
+        android:title="@string/action_settings1"
+        android:orderInCategory="100"
+        android:menuCategory="system"
+        android:showAsAction="withText" />
+
+    <item android:id="@+id/action_settings2"
+        android:title="@string/action_settings2"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+
+
+    <item android:id="@+id/action_settings3"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/action_settings3"
+        android:orderInCategory="100"
+        android:menuCategory="secondary"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_settings4"
+        android:title="@string/action_settings4"
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:showAsAction="withText" />
+</menu>
