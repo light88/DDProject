@@ -5,9 +5,14 @@
     android:layout_height="match_parent"
     android:padding="8dp">
 
+    <!--amount-->
+
     <LinearLayout
+        android:id="@+id/amount_container"
         android:layout_height="wrap_content"
-        android:layout_width="fill_parent">
+        android:layout_width="fill_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
 
         <TextView
             android:textSize="25sp"
@@ -15,6 +20,128 @@
             android:text="Amount"
             android:layout_width="fill_parent" />
 
+        <EditText
+            android:text="dgddggdggdg"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" />
+
+    </LinearLayout>
+
+    <!--currency-->
+
+    <LinearLayout
+        android:layout_below="@+id/amount_container"
+        android:id="@+id/currency_container"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="Currency"
+            android:layout_width="fill_parent" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
+            <Spinner
+                android:id="@+id/spinner_currency"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:entries="@array/currencies" />
+
+            <Button
+                android:id="@+id/add_currency_btn"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="@string/add" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--date-->
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/date_container"
+        android:layout_below="@+id/currency_container"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_width="fill_parent" />
+
+        <EditText
+            android:text="25.05.2013"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" />
+
+    </LinearLayout>
+
+    <!--group-->
+
+    <LinearLayout
+        android:layout_below="@+id/date_container"
+        android:layout_marginTop="8dp"
+        android:id="@+id/group_container"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="Group"
+            android:layout_width="fill_parent" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
+            <Spinner
+                android:id="@+id/spinner_group"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:entries="@array/currencies" />
+
+            <Button
+                android:id="@+id/add_group_btn"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="@string/add" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--buttons-->
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_width="fill_parent">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
 
     </LinearLayout>
 

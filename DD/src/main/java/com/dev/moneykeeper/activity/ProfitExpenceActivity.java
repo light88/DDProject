@@ -10,7 +10,7 @@ import com.actionbarsherlock.view.MenuItem;
 /**
  * Created by light on 10/26/13.
  */
-public class ProfitExpenseActivity extends SherlockActivity {
+public class ProfitExpenceActivity extends SherlockActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
