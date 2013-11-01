@@ -45,6 +45,7 @@ public class SlidingMenuFragment extends SherlockFragment implements AdapterView
         slidingMenuItems = new ArrayList<SlidingMenuCustomItem>();
         slidingMenuItems.add(new SlidingMenuCustomItem("Hello World", R.drawable.ic_launcher));
         slidingMenuItems.add(new SlidingMenuCustomItem("About", R.drawable.ic_launcher));
+        slidingMenuItems.add(new SlidingMenuCustomItem("Input", R.drawable.ic_launcher));
 
     }
 

@@ -14,4 +14,11 @@
 
     <string name="hello_world">Hello world!</string>
 
+    <string-array name="currencies">
+        <item>Euro</item>
+        <item>Dollar</item>
+        <item>UAH</item>
+        <item>RUB</item>
+    </string-array>
+
 </resources>
