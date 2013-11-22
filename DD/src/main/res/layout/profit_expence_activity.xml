@@ -21,13 +21,14 @@
             android:layout_width="fill_parent" />
 
         <EditText
+            android:id="@+id/amount"
             android:text="dgddggdggdg"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent" />
 
     </LinearLayout>
 
-    <!--currency-->
+    <!--name-->
 
     <LinearLayout
         android:layout_below="@+id/amount_container"
@@ -52,7 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:entries="@array/currencies" />
+                />
+            <!--android:entries="@array/currencies"-->
 
             <Button
                 android:id="@+id/add_currency_btn"
@@ -63,8 +65,9 @@
         </LinearLayout>
     </LinearLayout>
 
+<!--
 
-    <!--date-->
+    &lt;!&ndash;date&ndash;&gt;
     <LinearLayout
         android:layout_marginTop="8dp"
         android:id="@+id/date_container"
@@ -85,10 +88,11 @@
             android:layout_width="fill_parent" />
 
     </LinearLayout>
+-->
 
     <!--group-->
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_below="@+id/date_container"
         android:layout_marginTop="8dp"
         android:id="@+id/group_container"
@@ -122,7 +126,7 @@
         </LinearLayout>
 
     </LinearLayout>
-
+-->
     <!--buttons-->
 
     <LinearLayout
@@ -132,12 +136,14 @@
         android:layout_width="fill_parent">
 
         <Button
+            android:id="@+id/save"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:text="@string/save" />
 
         <Button
+            android:id="@+id/cancel"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1"
