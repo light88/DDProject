@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
+import com.dev.moneykeeper.R;
 import com.dev.moneykeeper.callback.SlidingMenuClickCallback;
 
 import java.util.ArrayList;

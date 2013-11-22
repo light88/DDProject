@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.actionbarsherlock.app.SherlockFragment;
+import com.dev.moneykeeper.R;
 
 /**
  * Created by light on 10/19/13.

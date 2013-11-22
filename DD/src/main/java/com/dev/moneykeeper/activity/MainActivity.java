@@ -10,6 +10,7 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+import com.dev.moneykeeper.R;
 import com.dev.moneykeeper.callback.SlidingMenuClickCallback;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
