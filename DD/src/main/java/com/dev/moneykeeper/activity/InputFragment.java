@@ -13,6 +13,7 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.dev.moneykeeper.R;
 
 /**
  * Created by light on 10/26/13.
